@@ -2,7 +2,7 @@
 
 ## 算法思路
 
-本实验主要采取Informer模型进行ETTh数据集中指标的预测。Informer模型的实质是注意力机制+Transformer模型，Informer模型的核心思想是将输入序列进行自注意力机制的处理，以捕捉序列中的长期依赖关系，并利用Transformer的编码器-解码器结构进行预测。
+采取Informer模型进行ETTh数据集中指标的预测，并且在Informer模型的基础上加入了滑动时间窗口改进。Informer模型的实质是注意力机制+Transformer模型，Informer模型的核心思想是将输入序列进行自注意力机制的处理，以捕捉序列中的长期依赖关系，并利用Transformer的编码器-解码器结构进行预测。
 
 ### Informer模型
 
